@@ -31,7 +31,7 @@ WHERE LastName LIKE @find;
   ```
   
   
-  #Funciones para manejar cadenas de caracteres
+  # Funciones para manejar cadenas de caracteres
 
 
   ## LEFT
@@ -57,6 +57,13 @@ SELECT STUFF('SQL Tutorial', 1, 3, 'HTML');
   SUBSTRING () extrae una subcadena con una longitud especificada a partir de una ubicación en una cadena de entrada.
    ```sh
 SELECT SUBSTRING('SQL Tutorial', 1, 3) AS ExtractString; 
+```
+
+## STR
+Retorna un numero como string
+
+   ```sh
+SELECT STR(185);
 ```
   
    
